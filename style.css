@@ -1,0 +1,43 @@
+body{
+  background-color: rgb(236, 176, 185);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(153, 173, 228);
+  text-decoration: underline;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+}
+
+.infoCube{
+  background-color: rgb(194, 116, 218);
+}
+
+.mgn{
+  margin: auto;
+}
+
+.border{
+  border: dashed;
+  border-color: azure;
+  border-radius: 1em;
+  
+}
+
+.pd-t{
+  padding-top: 1em;
+}
+.pd-b{
+  padding-bottom: 1em;
+}
+.pd-r{
+  padding-right: 1em;
+}
+.pd-l{
+  padding-left: 1em;
+}
