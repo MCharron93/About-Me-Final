@@ -1,5 +1,13 @@
+:root{
+  --shadow: 2px 4px 6px rgb(12, 11, 11);
+}
+
 body{
   background-color: rgb(236, 176, 185);
+}
+img{
+  height: 20em;
+
 }
 
 .container{
@@ -18,8 +26,8 @@ body{
   background-color: rgb(194, 116, 218);
 }
 
-.mgn{
-  margin: auto;
+.shadow img{
+  box-shadow: var(--shadow); */
 }
 
 .border{
@@ -29,6 +37,9 @@ body{
   
 }
 
+.mgn{
+  margin: auto;
+}
 .pd-t{
   padding-top: 1em;
 }
