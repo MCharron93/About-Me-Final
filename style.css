@@ -27,7 +27,7 @@ img{
 }
 
 .shadow img{
-  box-shadow: var(--shadow); */
+  box-shadow: var(--shadow);
 }
 
 .border{
@@ -35,6 +35,11 @@ img{
   border-color: azure;
   border-radius: 1em;
   
+}
+
+.d-flex-space-between{
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .mgn{
